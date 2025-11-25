@@ -1,0 +1,272 @@
+/* Home */
+
+body{
+    background-color: black;
+}
+
+.logo a {
+    font-size: 40px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.navbar1 {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar1 ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar1 li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 15px;
+}
+
+.navbar1 ul li a:hover {
+color: white;
+background-color: black;
+border-radius: 5px;
+}
+
+.navbar2 {
+  height: 60px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.navbar2 ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar2 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+.navbar2 ul li a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.search-bar {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 300px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.resize-image{
+    width: 1350px;
+    height: 520px;
+}
+
+.text1{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 54px;
+  font-family: var();
+  text-align: center;
+  
+  
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 2;
+  }
+
+}
+
+.text2{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: var();
+  font-style: italic;
+  text-align: center;
+
+  
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 2;
+  }
+}
+
+.cart {
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+.cart span {
+      color: black;
+      font-size: 13px;
+      position: absolute;
+    }
+
+
+
+/* Products */
+
+.product-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px;
+}
+
+.product-card p {
+  color: green;
+  font-weight: bold;
+}
+
+.product-card button {
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+/* Sign up and Log in */
+
+.signup-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px ;
+}
+
+.signup-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.signup-box input {
+  display: block;
+  width: 92%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-box button {
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-box button:hover {
+  background-color: #0056b3;
+}
+
+.login-box{
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-box input{
+  display: block;
+  width: 92%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box button {
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+}
